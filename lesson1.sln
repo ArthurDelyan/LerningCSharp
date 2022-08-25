@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson1", "lesson1\lesson1.csproj", "{0B7F93A1-24F9-4982-910A-A2227C1A3DEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson1", "lesson1\lesson1.csproj", "{0B7F93A1-24F9-4982-910A-A2227C1A3DEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "game", "game\game.csproj", "{74A14951-9DD3-40C5-9C1F-3C460BBBD280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tamagochi", "tamagochi\tamagochi.csproj", "{2E3FBBD9-D0F6-41DF-8D31-EEF8C63301DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0B7F93A1-24F9-4982-910A-A2227C1A3DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B7F93A1-24F9-4982-910A-A2227C1A3DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B7F93A1-24F9-4982-910A-A2227C1A3DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A14951-9DD3-40C5-9C1F-3C460BBBD280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A14951-9DD3-40C5-9C1F-3C460BBBD280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A14951-9DD3-40C5-9C1F-3C460BBBD280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A14951-9DD3-40C5-9C1F-3C460BBBD280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3FBBD9-D0F6-41DF-8D31-EEF8C63301DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3FBBD9-D0F6-41DF-8D31-EEF8C63301DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3FBBD9-D0F6-41DF-8D31-EEF8C63301DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3FBBD9-D0F6-41DF-8D31-EEF8C63301DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
