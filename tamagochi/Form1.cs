@@ -12,7 +12,7 @@ namespace tamagochi
         Pet mutant = new mutant("mutant");
         int index_pet_list = 0;
        public List<Pet> pet_list = new List<Pet>();
-       var pet = pet_list[index_pet_list];
+       Pet pet = pet_list[index_pet_list];
         
         delegate void Way_to_death();
         delegate string? Death();
@@ -28,9 +28,10 @@ namespace tamagochi
             pet_list.Add(mutant);
             
             kind_animal.Text = pet_list[index_pet_list].ToString ();
-           // timer1.Start();
-             
-             Way_to_death way_To_satiety = cat.Increment_satiety;
+            // timer1.Start();
+            //var pet = pet_list[index_pet_list];
+
+            Way_to_death way_To_satiety = cat.Increment_satiety;
             Way_to_death way_To_thirst= cat.Increment_thirst;
             Way_to_death_event  = way_To_satiety;
             Way_to_death_event += way_To_thirst;
